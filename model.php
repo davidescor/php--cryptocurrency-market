@@ -58,7 +58,7 @@ function loadtable($rank, $id, $name, $symbol, $price_usd, $price_btc,$percent_c
 	           		<p class="c-'.$color2[$i].'">'.$percent_change_24h[$i].'%</p>
 			   </td>
 
-			   <td>
+			   <td class="seven-days">
 	           		<p class="c-'.$color3[$i].'">'.$percent_change_7d[$i].'%</p>
 			   </td>
 	          </tr>';

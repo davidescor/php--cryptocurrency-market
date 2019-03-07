@@ -30,9 +30,9 @@ include_once("model.php");
     <div id="gotop" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
       <a class="my-0 mr-md-auto name-page" href="#">COIN VIEW</A>
       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">LOGIN</a>
+        <a class="p-2 text-dark login" href="#">LOGIN</a>
       </nav>
-      <a class="btn btn-primary" href="#">REGISTER</a>
+      <a class="btn btn-primary register" href="#">REGISTER</a>
     </div>
 
 
@@ -48,7 +48,7 @@ include_once("model.php");
           <th>PRICE</th>
           <th>1 HOUR</th>
           <th>24 HOURS</th>
-          <th>7 DAYS</th>
+          <th class="seven-days">7 DAYS</th>
         </tr>
 
     </table>
@@ -71,7 +71,7 @@ include_once("model.php");
 
 
 
-<a href="#gotop" class="btn btn-outline-primary gotop">TOP</a>
+    <a href="#gotop" class="btn btn-outline-primary gotop">TOP</a>
 
 
     <!-- BOOSTRAP JAVASCRIPT -->
