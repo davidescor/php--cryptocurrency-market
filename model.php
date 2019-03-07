@@ -31,9 +31,6 @@ function loadtable($rank, $id, $name, $symbol, $price_usd, $price_btc,$percent_c
 
 
 		echo '<tr>
-			   <td>
-			   	<p class="f-size12">#'.$rank[$i].'</p>
-			   </td>
 	           <td>
 	           	<div class="row">
 	           		<div class="col-md-1">

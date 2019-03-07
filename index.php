@@ -28,26 +28,22 @@ include_once("model.php");
   <body>
 
     <div id="gotop" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-      <h5 class="my-0 mr-md-auto font-weight-normal">COIN VIEW</h5>
+      <a class="my-0 mr-md-auto name-page" href="#">COIN VIEW</A>
       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Features</a>
-        <a class="p-2 text-dark" href="#">Enterprise</a>
-        <a class="p-2 text-dark" href="#">Support</a>
-        <a class="p-2 text-dark" href="#">Pricing</a>
+        <a class="p-2 text-dark" href="#">LOGIN</a>
       </nav>
-      <a class="btn btn-primary" href="#">Sign up</a>
+      <a class="btn btn-primary" href="#">REGISTER</a>
     </div>
 
 
 
 
 
-<div class="container-fluid">
+<div class="container">
     <table cellpadding="0" cellspacing="0" border="0">
       <p class="t-cript upcase text-center">Cryptocurrencies</p>
 
         <tr>
-          <th></th>
           <th>COIN</th>
           <th>PRICE</th>
           <th>1 HOUR</th>
@@ -67,7 +63,10 @@ include_once("model.php");
 
     </table>
 </div>
-
+<hr>
+        <footer class="text-center footer">
+          <p class="c-white-footer f-size15">COIN VIEW © COPYRIGHT BY <a class="no-style" href="http://www.davidespier.com">DAVID ESPIER</a></p>
+        </footer>
 
 
 

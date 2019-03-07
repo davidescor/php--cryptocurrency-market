@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
 body{
-  font-family: sans-serif;
+  font-family: 'PT Sans', sans-serif;
+
 }
+
 
 
 table{
@@ -12,8 +16,8 @@ table{
 th{
   padding: 25px 15px;
   text-align: left;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 16px;
   text-transform: uppercase;
   color: #007bff;
 }
@@ -24,19 +28,17 @@ td{
   vertical-align:middle;
   font-size: 15px;
 }
-
+.name-page{
+  font-weight: 700;
+}
 .upcase{
   text-transform: uppercase;
 }
 .t-cript{
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
   padding-top: 4%;
   padding-bottom: 4%;
-}
-.logo{
-  font-size: 90px;
-  color: white;
 }
 
 .tbl-header{
@@ -77,5 +79,5 @@ td{
   right: 0;
   margin-bottom: 1%;
   margin-right: 2%;
-  padding: 15px 25px;
+  padding: 5px 15px;
 }
