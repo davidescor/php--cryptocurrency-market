@@ -3,25 +3,43 @@
 include_once("api.php");
 
 
-function loadtable($id, $name, $symbol, $price_usd, $price_btc,$percent_change_1h, $percent_change_24h, $percent_change_7d){
+function loadtable($rank, $id, $name, $symbol, $price_usd, $price_btc,$percent_change_1h, $percent_change_24h, $percent_change_7d){
 
-	$color;
+	$color1;
+	$color2;
+	$color3;
 
 	for($i = 0; $i < 100; $i++){
 
 		if($percent_change_1h[$i] < 0.00){
-			$color = 'red';
+			$color1[$i] = 'red';
 		}else{
-			$color = 'green';
+			$color1[$i] = 'green';
 		}
 
+		if($percent_change_24h[$i] < 0.00){
+			$color2[$i] = 'red';
+		}else{
+			$color2[$i] = 'green';
+		}
+
+		if($percent_change_7d[$i] < 0.00){
+			$color3[$i] = 'red';
+		}else{
+			$color3[$i] = 'green';
+		}
+
+
 		echo '<tr>
+			   <td>
+			   	<p class="f-size12">#'.$rank[$i].'</p>
+			   </td>
 	           <td>
 	           	<div class="row">
 	           		<div class="col-md-1">
 						<img src="img/coin/'.$symbol[$i].'.png" width="20" height="20">
 	           		</div>
-	           		<div class="col-md-3">
+	           		<div class="col-md-5">
 	           			<p class="c-black">'.$name[$i].'</p>
 	           		</div>
 	           		<div class="col-md-5">
@@ -36,15 +54,15 @@ function loadtable($id, $name, $symbol, $price_usd, $price_btc,$percent_change_1
 
 
 			   <td>
-	           		<p class="c-'.$color.'">'.$percent_change_1h[$i].'%</p>
+	           		<p class="c-'.$color1[$i].'">'.$percent_change_1h[$i].'%</p>
 			   </td>
 
 			   <td>
-	           		<p class="c-'.$color.'">'.$percent_change_24h[$i].'%</p>
+	           		<p class="c-'.$color2[$i].'">'.$percent_change_24h[$i].'%</p>
 			   </td>
 
 			   <td>
-	           		<p class="c-'.$color.'">'.$percent_change_7d[$i].'%</p>
+	           		<p class="c-'.$color3[$i].'">'.$percent_change_7d[$i].'%</p>
 			   </td>
 	          </tr>';
 

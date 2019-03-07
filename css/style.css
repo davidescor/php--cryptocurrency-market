@@ -6,27 +6,38 @@ body{
 table{
   width: 100%;
   table-layout: fixed;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 th{
   padding: 25px 15px;
   text-align: left;
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 14px;
   text-transform: uppercase;
-  color: #2196f3;
+  color: #007bff;
 }
+
 td{
   padding: 15px;
   text-align: left;
   vertical-align:middle;
   font-size: 15px;
 }
-table{
-	border-left: solid 1px rgba(128,128,128,0.3);
-	border-right: solid 1px rgba(128,128,128,0.3);
+
+.upcase{
+  text-transform: uppercase;
 }
-
-
+.t-cript{
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.logo{
+  font-size: 90px;
+  color: white;
+}
 
 .tbl-header{
   border-bottom: solid 1px rgba(128,128,128,0.3);
@@ -53,4 +64,18 @@ table{
 
 .m-bot5{
   margin-bottom: -1.5%;
+}
+.p-tb20{
+  padding: 7%;
+}
+.f-size12{
+  font-size: 10px;
+}
+.gotop{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 1%;
+  margin-right: 2%;
+  padding: 15px 25px;
 }
