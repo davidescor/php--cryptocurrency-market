@@ -16,7 +16,7 @@ include_once("model.php");
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>COIN VIEW</title>
+    <title>Mercado de criptomonedas</title>
 
     <!-- BOOTSTRAP CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,51 +27,41 @@ include_once("model.php");
 
   <body>
 
-    <div id="gotop" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-      <a class="my-0 mr-md-auto name-page" href="#">COIN VIEW</A>
-      <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark login" href="#">LOGIN</a>
-      </nav>
-      <a class="btn btn-primary register" href="#">REGISTER</a>
+    <div class="text-center">
+      <a href="index.php"><img src="img/512px.jpg" width="256" height="256"></a>
+      <p class="t-cript upcase text-center">Mercado de criptomonedas</p>
     </div>
 
+    <div class='container'>
+      <table cellpadding="0" cellspacing="0" border="0">
 
+          <tr>
+            <th>COIN</th>
+            <th>PRICE</th>
+            <th>1 HOUR</th>
+            <th>24 HOURS</th>
+            <th class="seven-days">7 DAYS</th>
+          </tr>
 
+      </table>
+      <table cellpadding="0" cellspacing="0" border="0">
 
+        	<?php
 
-<div class="container">
-    <table cellpadding="0" cellspacing="0" border="0">
-      <p class="t-cript upcase text-center">Cryptocurrencies</p>
+        		loadtable($rank, $id, $name, $symbol, $price_usd, $price_btc,$percent_change_1h, $percent_change_24h, $percent_change_7d);
 
-        <tr>
-          <th>COIN</th>
-          <th>PRICE</th>
-          <th>1 HOUR</th>
-          <th>24 HOURS</th>
-          <th class="seven-days">7 DAYS</th>
-        </tr>
+        	?>
 
-    </table>
-    <hr>
-    <table cellpadding="0" cellspacing="0" border="0">
+      </table>
 
-      	<?php
+    <p class="backtotop">
+      <a href="#">Back to top</a>
+    </p>
 
-      		loadtable($rank, $id, $name, $symbol, $price_usd, $price_btc,$percent_change_1h, $percent_change_24h, $percent_change_7d);
-
-      	?>
-
-    </table>
-</div>
-<hr>
-        <footer class="text-center footer">
-          <p class="c-white-footer f-size15">COIN VIEW © COPYRIGHT BY <a class="no-style" href="http://www.davidespier.com">DAVID ESPIER</a></p>
-        </footer>
-
-
-
-
-    <a href="#gotop" class="btn btn-outline-primary gotop">TOP</a>
+      <footer class="text-center">
+          <p>© Mercado de criptomonedas</p>
+      </footer>
+    </div>
 
 
     <!-- BOOSTRAP JAVASCRIPT -->

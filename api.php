@@ -15,7 +15,7 @@ $percent_change_24h = [];
 $percent_change_7d = [];
 $market_cap_usd = [];
 
-$i = 0;
+$i = 1;
 
 foreach ($characters as $character) {
 	$id[$i] = $character->id;

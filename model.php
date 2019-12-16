@@ -9,7 +9,7 @@ function loadtable($rank, $id, $name, $symbol, $price_usd, $price_btc,$percent_c
 	$color2;
 	$color3;
 
-	for($i = 0; $i < 100; $i++){
+	for($i = 1; $i <= 100; $i++){
 
 		if($percent_change_1h[$i] < 0.00){
 			$color1[$i] = 'red';
@@ -33,9 +33,13 @@ function loadtable($rank, $id, $name, $symbol, $price_usd, $price_btc,$percent_c
 		echo '<tr>
 	           <td>
 	           	<div class="row">
-	           		<div class="col-md-1">
+	           		<div class="col-md-2 hiddensm">
+						<p>'.$i.'</p>
+	           		</div>
+	           		<div class="col-md-2">
 						<img src="img/coin/'.$symbol[$i].'.png" width="20" height="20">
 	           		</div>
+
 	           		<div class="col-md-5">
 	           			<p class="c-black">'.$name[$i].'</p>
 	           		</div>

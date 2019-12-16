@@ -8,8 +8,7 @@ font-family: 'Roboto Condensed', sans-serif;
 table{
   width: 100%;
   table-layout: fixed;
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
+  text-align:center
 }
 th{
   padding: 25px 15px;
@@ -18,13 +17,18 @@ th{
   font-size: 16px;
   text-transform: uppercase;
   color: #007bff;
+  padding: 50px;
 }
 
 td{
-  padding: 15px;
+  padding: 50px;
   text-align: left;
   vertical-align:middle;
   font-size: 15px;
+}
+
+.menunav{
+  height: 50px;
 }
 .name-page{
   font-weight: 700;
@@ -79,6 +83,14 @@ td{
   margin-right: 2%;
   padding: 5px 15px;
 }
+.text-muted{
+  padding-top: 1%;
+}
+.backtotop{
+  position: fixed;
+  bottom: 25px;
+  right: 150px;
+}
 
 @media (max-width: 600px) {
     .gotop{
@@ -95,5 +107,15 @@ display: none;
     }
     .t-cript{
       font-size: 20px;
+    }
+    .hiddensm{
+      visibility: hidden;
+    }
+    .backtotop{
+      visibility: hidden;
+
+    }
+    table{
+      border: none;
     }
 }
