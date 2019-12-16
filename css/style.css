@@ -11,17 +11,16 @@ table{
   text-align:center
 }
 th{
-  padding: 25px 15px;
+  padding: 50px 50px;
   text-align: left;
   font-weight: 400;
   font-size: 16px;
   text-transform: uppercase;
   color: #007bff;
-  padding: 50px;
 }
 
 td{
-  padding: 50px;
+  padding: 50px 50px;
   text-align: left;
   vertical-align:middle;
   font-size: 15px;
@@ -115,7 +114,15 @@ display: none;
       visibility: hidden;
 
     }
-    table{
-      border: none;
+
+    th{
+      text-align: center;
+      padding: 0px;
     }
+
+  td{
+    padding: 5px;
+    text-align: center;
+  }
+
 }
