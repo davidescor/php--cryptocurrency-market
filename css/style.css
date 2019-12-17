@@ -93,13 +93,13 @@ td{
 
 @media (max-width: 600px) {
     .gotop{
-display: none;
+      display: none;
     }
     .login{
-display: none;
+      display: none;
     }
     .register{
-display: none;
+      display: none;
     }
     .seven-days{
       display: none;
@@ -112,7 +112,6 @@ display: none;
     }
     .backtotop{
       visibility: hidden;
-
     }
 
     th{
@@ -121,8 +120,11 @@ display: none;
     }
 
   td{
-    padding: 5px;
+    padding: 0px;
     text-align: center;
   }
-
+  .shortname{
+    visibility: hidden;
+  }
+  
 }

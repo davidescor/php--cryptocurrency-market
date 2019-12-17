@@ -44,12 +44,12 @@ function loadtable($rank, $id, $name, $symbol, $price_usd, $price_btc,$percent_c
 	           			<p class="c-black">'.$name[$i].'</p>
 	           		</div>
 	           		<div class="col-md-5">
-	           			<p class="c-darkgray">'.$symbol[$i].'</p>
+	           			<p class="c-darkgray shortname">'.$symbol[$i].'</p>
 	           		</div>
 	           	</div>
 	           </td>
 	           <td>
-					<p class="c-black m-bot5">USD '.round($price_usd[$i],3).'</p>
+					<p class="c-black m-bot5">$ '.round($price_usd[$i],3).'</p>
 	           		<p class="c-darkgray">BTC '.$price_btc[$i].'</p>
 	           </td>
 

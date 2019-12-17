@@ -64,7 +64,7 @@ include_once("model.php");
     </p>
 
       <footer class="text-center">
-          <p>© Mercado de criptomonedas</p>
+          <p><a href="http://davidespier.com">davidespier.com</a> © Mercado de criptomonedas</p>
       </footer>
     </div>
 
