@@ -21,7 +21,7 @@ include_once("model.php");
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-    <title>Mercado de criptomonedas</title>
+    <title>Cryptocurrency market</title>
 
     <!-- BOOTSTRAP CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +34,7 @@ include_once("model.php");
 
     <div class="text-center">
       <a href="index.php"><img src="img/512px.jpg" width="256" height="256"></a>
-      <p class="t-cript upcase text-center">Mercado de criptomonedas</p>
+      <p class="t-cript upcase text-center">Cryptocurrency market</p>
     </div>
 
     <div class='container'>
