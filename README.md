@@ -8,11 +8,11 @@ Project made with php and use api.
 
 ## Requirements
 
-- Php 5.6 ~ 7. (You can use usbwebserver or xampp)
+Php 5.6 ~ 7. (You can use usbwebserver or xampp)
 
 ## Installation
 
-- No installation. (Copy files to hosting, usbwebserver or xampp and run)
+No installation. (Copy files to hosting, usbwebserver or xampp and run)
 
 
 ## Website project
