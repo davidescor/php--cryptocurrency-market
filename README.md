@@ -17,7 +17,7 @@ Project made with php and use api.
 
 ## Website project
 
-[http://davidespier.com/pages/nextreleasesgames/](http://davidespier.com/pages/nextreleasesgames/)
+[http://davidespier.com/pages/cryptocurrencymarket/](http://davidespier.com/pages/cryptocurrencymarket/)
 
 
 ## Authors
