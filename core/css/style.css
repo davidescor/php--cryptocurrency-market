@@ -2,17 +2,17 @@
 
 body{
 font-family: 'Roboto Condensed', sans-serif;
-
+background-color: white;
 }
 
 table{
+  background: #fafafa;
   width: 100%;
   table-layout: fixed;
-  text-align:center
+  text-align:center;
 }
 th{
   padding: 50px 50px;
-  text-align: left;
   font-weight: 400;
   font-size: 16px;
   text-transform: uppercase;
@@ -21,8 +21,6 @@ th{
 
 td{
   padding: 50px 50px;
-  text-align: left;
-  vertical-align:middle;
   font-size: 15px;
 }
 
