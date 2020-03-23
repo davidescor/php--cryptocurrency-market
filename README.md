@@ -4,7 +4,7 @@
 
 Cryptocurrency market is one of the essential tools for any cryptocurrency trader or investor..
 
-Project made with php and use api.
+Project carried out with php and use of third-party api.
 
 ## Requirements
 
