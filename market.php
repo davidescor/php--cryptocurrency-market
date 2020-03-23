@@ -32,8 +32,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a href="index.php" class="nav-item nav-link active">Home</a>
-                <a href="market.php" class="nav-item nav-link">Market</a>
+                <a href="index.php" class="nav-item nav-link">Home</a>
+                <a href="market.php" class="nav-item nav-link active">Market</a>
+                <a href="#" class="nav-item nav-link">News</a>
                 <a href="#" class="nav-item nav-link">Contact</a>
             </div>
             <div class="navbar-nav ml-auto">
@@ -42,14 +43,13 @@
         </div>
     </nav>
 
-    <p class="name-logo"> cryptocurrency market </p>
-    <p class="text-logo">List of value and latest news of value of cryptocurrencies</p>
+    <p class="name-logo">cryptocurrency market</p>
+    <p class="text-logo">List of the top 100 cryptocurrencies</p>
   </div>
 
   <?php
-    loadtableHome($name, $symbol, $priceUsd, $changePercent24Hr);
+    loadtableMarket($name, $symbol, $priceUsd, $changePercent24Hr);
   ?>
-
 
   <br>
 

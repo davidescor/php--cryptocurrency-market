@@ -4,57 +4,32 @@ body{
 font-family: 'Roboto Condensed', sans-serif;
 background-color: white;
 }
-
-table{
-  background: #fff;
+.crypto_market{
+  margin-top: -15%;
+  background-color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+.header{
+  text-align: center;
+  background-color: #1652f0;
   width: 100%;
-  table-layout: fixed;
-  text-align:center;
+  height: 500px;
 }
-th{
-  padding: 50px 50px;
-  font-weight: 400;
-  font-size: 16px;
+.name-logo{
   text-transform: uppercase;
-  color: #007bff;
-}
-
-td{
-  padding: 50px 50px;
-  font-size: 15px;
-}
-
-.menunav{
-  height: 50px;
-}
-.name-page{
+  font-size: 51px;
+  letter-spacing: 10px;
   font-weight: 700;
+  color: white;
+  margin-top: 5%;
 }
-.upcase{
-  text-transform: uppercase;
+.text-logo{
+  letter-spacing:2px;
+  color: #fafafa;
 }
-.t-cript{
-  font-size: 40px;
-  font-weight: 700;
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-
-.tbl-header{
-  border-bottom: solid 1px rgba(128,128,128,0.3);
- }
-.tbl-content{
-  overflow-x:auto;
-  margin-top: 0px;
-  border-bottom: solid 1px rgba(128,128,128,1);
-}
-
-.c-black{
-  color: black;
-
-}
-.c-darkgray{
-  color: gray;
+.text-header-coin{
+  color: #888;
 }
 .c-red{
   color: red;
@@ -62,67 +37,43 @@ td{
 .c-green{
   color: green;
 }
-
-.m-bot5{
-  margin-bottom: -1.5%;
+.view-all-coin{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.p-tb20{
-  padding: 7%;
+.mid-header{
+  margin-top: 3%;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  height: 200px;
 }
-.f-size12{
-  font-size: 10px;
-}
-.gotop{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 1%;
-  margin-right: 2%;
-  padding: 5px 15px;
-}
-.text-muted{
-  padding-top: 1%;
-}
-.backtotop{
-  position: fixed;
-  bottom: 25px;
-  right: 150px;
+.mid-name-logo{
+  text-transform: uppercase;
+  font-size: 45px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  color: #333;
+  padding-top: 3%;
 }
 
-@media (max-width: 600px) {
-    .gotop{
-      display: none;
-    }
-    .login{
-      display: none;
-    }
-    .register{
-      display: none;
-    }
-    .seven-days{
-      display: none;
-    }
-    .t-cript{
-      font-size: 20px;
-    }
-    .hiddensm{
-      visibility: hidden;
-    }
-    .backtotop{
-      visibility: hidden;
-    }
+footer{
+  margin-top: 5%;
+}
 
-    th{
-      text-align: center;
-      padding: 0px;
-    }
-
-  td{
-    padding: 0px;
+@media only screen and (max-width: 600px) {
+  .name-logo{
+    text-transform: uppercase;
+    font-size: 34px;
+    letter-spacing: 10px;
+    font-weight: 700;
+    color: white;
+    margin-top: 5%;
+  }
+  .header{
     text-align: center;
+    background-color: #1652f0;
+    width: 100%;
+    height: 325px;
   }
-  .shortname{
-    visibility: hidden;
-  }
-  
 }
