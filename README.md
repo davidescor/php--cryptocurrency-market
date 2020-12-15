@@ -1,4 +1,4 @@
-![cryptocurrency-market](http://davidespier.com/github/crypt-php/crypt.jpg)
+![cryptocurrency-market](https://i.postimg.cc/FsGSdXcX/crypt.jpg)
 
 # Cryptocurrency market
 
