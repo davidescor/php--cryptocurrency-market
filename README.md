@@ -1,4 +1,4 @@
-![cryptocurrency-market](https://i.postimg.cc/FsGSdXcX/crypt.jpg)
+![cryptocurrency-market](https://i.postimg.cc/HsW5p9LM/url.png)
 
 # Cryptocurrency market
 
